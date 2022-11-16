@@ -1,7 +1,7 @@
 self.addEventListener('push', function(event) {
     var event_obj = event;
     
-    console.log('Received a push message', event_obj.data.text);
+    console.log('Received a push message from peter pc', event);
 
     var title = 'La Banque des Territoires';
     var body = "Une nouvelle actualité vient d'être publiée";

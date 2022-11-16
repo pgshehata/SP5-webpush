@@ -1,7 +1,7 @@
 self.addEventListener('push', function(event) {
     var event_obj = event;
     
-    console.log('Received a push message', event_obj);
+    console.log('Received a push message', event_obj.data.text);
 
     var title = 'Yay a message.';
     var body = 'We have received a push message.';

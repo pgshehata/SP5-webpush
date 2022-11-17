@@ -18,8 +18,7 @@ self.addEventListener('push', function(event) {
             body: body,
             icon: icon,
             tag: tag,
-            data: data,
-            actions: actions
+            data: data
         })
     );
 });
